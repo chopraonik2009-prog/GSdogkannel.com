@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | GS Dog Kannel</title>
+    <meta name="description" content="Learn about GS Dog Kannel, our legacy of over 20 years breeding KCI-registered championship lineage dogs in Punjab, India.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="main-header scrolled" id="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-shield-dog"></i></span>
+                <div style="display: flex; flex-direction: column; line-height: 1.1;"><span class="logo-text">GS Dog Kannel</span><span style="font-size: 0.65rem; color: var(--clr-primary); font-weight: 800; text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; cursor: pointer;" onclick="window.open('https://www.kennelclubofindia.org/', '_blank'); event.preventDefault();">KCI Certified <i class="fa-solid fa-up-right-from-square" style="font-size: 0.8em; margin-left: 2px;"></i></span></div>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link active">About</a>
+                <a href="breeds.html" class="nav-link">Breeds</a>
+                <a href="why-choose-us.html" class="nav-link">Why Choose Us</a>
+                <a href="appointments.html" class="nav-link">Appointments</a>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="tel:+919780051311" class="btn" style="background-color: #25D366; color: white; border: none; margin-right: 10px; padding: 0.8rem 1.2rem; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call</a>
+                <button class="btn btn-primary" id="btnBookConsultationTop">Book Consultation</button>
+                <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Navigation Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header Hero -->
+    <section class="page-hero-section" id="about-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-container">
+            <span class="section-tag"><i class="fa-solid fa-award"></i> Established since 2006</span>
+            <h1 class="page-title">Legacy of Elite Breeding</h1>
+            <p class="page-subtitle">Rearing KCI registered championship lineage puppies with devotion, scientific nutrition, and medical guidelines in Punjab, India.</p>
+        </div>
+    </section>
+
+    <!-- About Detailed Story -->
+    <section class="about-story-section">
+        <div class="about-container">
+            <div class="about-text-content">
+                <span class="section-tag">Our History</span>
+                <h2 class="section-title text-left">Over Two Decades of Uncompromising Standards</h2>
+                <p class="story-p" data-animate="anim-fade-up">At GS Dog Kannel, we began with a simple but profound mission: to elevate the standards of dog breeding in India. Guided by Kannel Club of India (KCI) certification rules, we choose only the most outstanding bloodlines to ensure genetic integrity, structural soundness, and stable temperaments.</p>
+                
+                <p class="story-p delay-150" data-animate="anim-fade-up">Our modern breeding facility is designed as a sanctuary. Unlike conventional kannels, our dogs enjoy open exercising yards, temperature-controlled nursery suites, and custom-formulated diets created by leading veterinary nutritionists.</p>
+                
+                <div class="stats-row-small">
+                    <div class="small-stat" data-animate="anim-fade-up">
+                        <strong data-counter="20+">0+</strong>
+                        <span>Years Rearing Champion Bloodlines</span>
+                    </div>
+                    <div class="small-stat delay-150" data-animate="anim-fade-up">
+                        <strong data-counter="100%">0%</strong>
+                        <span>KCI Pedigreed Microchipping</span>
+                    </div>
+                    <div class="small-stat delay-300" data-animate="anim-fade-up">
+                        <strong data-counter="1500+">0+</strong>
+                        <span>Families Made Complete</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual-grid">
+                <div class="story-card">
+                    <h3>Our Breeding Philosophy</h3>
+                    <ul class="story-list">
+                        <li><i class="fa-solid fa-check text-gold"></i> Strict genetic screening to avoid hereditary disorders</li>
+                        <li><i class="fa-solid fa-check text-gold"></i> Early socialization routines for puppy stability</li>
+                        <li><i class="fa-solid fa-check text-gold"></i> Lifetime commitment and breeder advice</li>
+                        <li><i class="fa-solid fa-check text-gold"></i> Complete vaccination and health certification</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Scenery Gallery -->
+    <section class="client-scenery-section" style="padding: 80px 20px; background-color: var(--clr-bg-deep);">
+        <div class="section-header" style="text-align: center; max-width: 800px; margin: 0 auto 50px;">
+            <span class="section-tag"><i class="fa-solid fa-camera-retro"></i> Happy Clients</span>
+            <h2 class="section-title">Families & Their New Best Friends</h2>
+            <p class="section-description">A glimpse into the joyous moments when our GS Dog Kannel champions meet their forever families.</p>
+        </div>
+
+        <div class="scenery-gallery">
+            <div class="scenery-photo"><img src="assets/client-1.jpeg" alt="Happy Client 1"></div>
+            <div class="scenery-photo"><img src="assets/client-2.jpeg" alt="Happy Client 2"></div>
+            <div class="scenery-photo"><img src="assets/client-3.jpeg" alt="Happy Client 3"></div>
+            <div class="scenery-photo"><img src="assets/client-4.jpeg" alt="Happy Client 4"></div>
+            <div class="scenery-photo"><img src="assets/client-5.jpeg" alt="Happy Client 5"></div>
+            <div class="scenery-photo"><img src="assets/client-6.jpeg" alt="Happy Client 6"></div>
+        </div>
+    </section>
+
+    <!-- Google Reviews Section -->
+    <section class="client-gallery-section" id="clients">
+        <div class="section-header">
+            <span class="section-tag"><i class="fa-brands fa-google"></i> Customer Trust</span>
+            <h2 class="section-title">Google Ratings & Testimonials</h2>
+            <p class="section-description">Real reviews from our Google Business Profile. We are proud to maintain a near-perfect rating based on genuine customer satisfaction.</p>
+        </div>
+        
+        <div style="text-align: center; margin-bottom: 35px;">
+            <a href="https://maps.app.goo.gl/3R7skZ1B4tzSLsJz9" target="_blank" rel="noopener" class="google-badge">
+                <i class="fa-brands fa-google"></i> Google Rating: <strong style="margin-left: 2px;">4.9</strong> 
+                <span class="google-stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </span> 
+                <span style="color: var(--clr-text-muted); font-weight: 500; margin-left: 4px;">(181 reviews)</span>
+            </a>
+        </div>
+
+        <div class="gallery-grid">
+            <!-- Review 1: Sania B -->
+            <div class="google-card">
+                <div class="google-avatar-wrapper">
+                    <div class="google-avatar">SB</div>
+                    <div class="google-verified-badge"><i class="fa-solid fa-check"></i></div>
+                </div>
+                <div class="google-author-info">
+                    <h4>Sania B</h4>
+                </div>
+                <div class="google-card-rating">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <h3 class="google-card-title">Pure Breed & Healthy</h3>
+                <p class="google-card-text">"We are so happy that we chose to buy our lab puppy from GS DOG KANNEL. Mr Krishan ji were so helpful. The puppy is very healthy and pure breed."</p>
+                <div class="google-card-footer">Verified Buyer • 1 month ago</div>
+            </div>
+            
+            <!-- Review 2: Nik 2416 (HIGHLIGHT) -->
+            <div class="google-card highlight">
+                <div class="google-avatar-wrapper">
+                    <div class="google-avatar">N</div>
+                    <div class="google-verified-badge"><i class="fa-solid fa-check"></i></div>
+                </div>
+                <div class="google-author-info">
+                    <h4>Nik 2416</h4>
+                </div>
+                <div class="google-card-rating">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <h3 class="google-card-title">Excellent Experience</h3>
+                <p class="google-card-text">"Excellent experience with the seller. The Shih Tzu puppy was healthy, active, and well cared for. Overall, very satisfied with the quality and service."</p>
+                <div class="google-card-footer">Verified Buyer • 1 month ago</div>
+            </div>
+
+            <!-- Review 3: Kirtan B -->
+            <div class="google-card">
+                <div class="google-avatar-wrapper">
+                    <div class="google-avatar">KB</div>
+                    <div class="google-verified-badge"><i class="fa-solid fa-check"></i></div>
+                </div>
+                <div class="google-author-info">
+                    <h4>Kirtan B</h4>
+                </div>
+                <div class="google-card-rating">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <h3 class="google-card-title">Professional & Caring</h3>
+                <p class="google-card-text">"We couldn't be happier with the experience we had at GS Dog Kannel! From the moment we walked in, the staff made both us and our dog feel completely at ease."</p>
+                <div class="google-card-footer">Verified Buyer • 1 year ago</div>
+            </div>
+
+            <!-- Review 4: Varun Sharma -->
+            <div class="google-card">
+                <div class="google-avatar-wrapper">
+                    <div class="google-avatar">VS</div>
+                    <div class="google-verified-badge"><i class="fa-solid fa-check"></i></div>
+                </div>
+                <div class="google-author-info">
+                    <h4>Varun Sharma</h4>
+                </div>
+                <div class="google-card-rating">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <h3 class="google-card-title">Cutest Puppy</h3>
+                <p class="google-card-text">"Best place to purchase adorable shihtzu puppy. Glad to get the cutest one for me."</p>
+                <div class="google-card-footer">Verified Buyer • 4 months ago</div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="https://maps.app.goo.gl/3R7skZ1B4tzSLsJz9" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+                <i class="fa-brands fa-google"></i> Review Us on Google
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo">
+                    <span class="logo-icon"><i class="fa-solid fa-shield-dog"></i></span>
+                    <div style="display: flex; flex-direction: column; line-height: 1.1;"><span class="logo-text">GS Dog Kannel</span><span style="font-size: 0.65rem; color: var(--clr-primary); font-weight: 800; text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; cursor: pointer;" onclick="window.open('https://www.kennelclubofindia.org/', '_blank'); event.preventDefault();">KCI Certified <i class="fa-solid fa-up-right-from-square" style="font-size: 0.8em; margin-left: 2px;"></i></span></div>
+                </a>
+                <p class="brand-desc">Punjab's premium Kannel Club of India (KCI) registered breeder. Raising champion lineages with ultimate devotion and medical safety guidelines.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/people/G-S-Pets/100076706312508/" class="social-link" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/pets_gs/" class="social-link" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/919780051311" class="social-link" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://youtube.com/@gsdogkennel-u6u?si=juVTR_UXHDhjOwBA" class="social-link" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Navigation</h3>
+                <ul class="links-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="breeds.html">Explore Breeds</a></li>
+                    <li><a href="why-choose-us.html">Why Choose Us</a></li>
+                    <li><a href="appointments.html">Appointments</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h3>Get In Touch</h3>
+                <ul class="contact-list">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <span>Phone Number</span>
+                            <strong><a href="tel:+919780051311">+91 97800 51311</a></strong>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <span>Email Address</span>
+                            <strong><a href="mailto:gurjasdogkannel@gmail.com">gurjasdogkannel@gmail.com</a></strong>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <div>
+                            <span>Kannel Location</span>
+                            <strong>Punjab, India</strong>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">`r`n            <p>&copy; 2026 GS Dog Kannel. All rights reserved. Managed with Kannel Club of India (KCI) certifications.</p>`r`n            <div class="legal-links" style="margin-top: 10px; font-size: 0.85rem; text-align: center; display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">`r`n                <a href="privacy.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Privacy Policy</a> <span style="color: rgba(255,255,255,0.3);">|</span>`r`n                <a href="terms.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Terms &amp; Conditions</a> <span style="color: rgba(255,255,255,0.3);">|</span>`r`n                <a href="disclaimer.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Disclaimer</a>`r`n            </div>`r`n        </div>
+    </footer>
+
+    <!-- Book Consultation Modal Overlay -->
+    <div class="modal-overlay" id="consultationModal">
+        <div class="modal-card">
+            <button class="modal-close" id="modalCloseBtn" aria-label="Close Modal">&times;</button>
+            <div class="modal-header">
+                <i class="fa-solid fa-paw modal-paw-icon"></i>
+                <h2>Book Kannel Consultation</h2>
+                <p>Submit your details to chat with our breeding experts regarding availability and lineage history.</p>
+            </div>
+            <form class="modal-form" id="consultationForm">
+                <div class="form-group">
+                    <label for="clientName">Full Name</label>
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="clientName" placeholder="e.g. Gurpreet Singh" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="clientPhone">Phone / WhatsApp Number</label>
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="tel" id="clientPhone" placeholder="e.g. +91 98765 43210" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="clientEmail">Email Address</label>
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="clientEmail" placeholder="e.g. gurpreet@example.com" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="selectedBreed">Interested Breed (Optional)</label>
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-dog"></i>
+                        <select id="selectedBreed">
+                            <option value="General Inquiry">General Consultation</option>
+                            <option value="Alaskan Malamute">Alaskan Malamute</option>
+                            <option value="Beagle">Beagle</option>
+                            <option value="Black Pug">Black Pug</option>
+                            <option value="Boxer">Boxer</option>
+                            <option value="Cane Corso">Cane Corso</option>
+                            <option value="Cocker Spaniel">Cocker Spaniel</option>
+                            <option value="Doberman Pinscher">Doberman Pinscher</option>
+                            <option value="Dogo Argentino">Dogo Argentino</option>
+                            <option value="English Mastiff">English Mastiff</option>
+                            <option value="French Bulldog">French Bulldog</option>
+                            <option value="German Shepherd">German Shepherd</option>
+                            <option value="Golden Retriever">Golden Retriever</option>
+                            <option value="Labrador Retriever">Labrador Retriever</option>
+                            <option value="Maltese">Maltese</option>
+                            <option value="Maltipoo">Maltipoo</option>
+                            <option value="Neapolitan Mastiff">Neapolitan Mastiff</option>
+                            <option value="Poodle">Poodle</option>
+                            <option value="Pug">Pug</option>
+                            <option value="Rottweiler">Rottweiler</option>
+                            <option value="Shih Tzu">Shih Tzu</option>
+                            <option value="Siberian Husky">Siberian Husky</option>
+                            <option value="Tibetan Mastiff">Tibetan Mastiff</option>
+                            <option value="Toy Pomeranian">Toy Pomeranian</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Submit & Chat on WhatsApp</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Widget -->
+    <a href="https://wa.me/919780051311?text=Hi%20GS%20Dog%20Kannel,%20I%27m%20visiting%20your%20website%20and%20want%20to%20know%20more." class="whatsapp-floating-widget" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="tooltip-text">Chat with us</span>
+    </a>
+
+    <!-- Interactive script -->
+    <script src="index.js"></script>
+</body>
+</html>
